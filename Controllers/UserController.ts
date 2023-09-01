@@ -6,7 +6,7 @@ class UserController {
             {
                 Name: "Mohammed",
                 Age: 20,
-                Date: Date.now
+                Date: new Date().toLocaleString()
             },
             {
                 Name: "Ahmed",
