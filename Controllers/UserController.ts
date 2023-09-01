@@ -5,7 +5,8 @@ class UserController {
         return response.json([
             {
                 Name: "Mohammed",
-                Age: 20
+                Age: 20,
+                Date: Date.now
             },
             {
                 Name: "Ahmed",
